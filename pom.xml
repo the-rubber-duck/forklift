@@ -8,7 +8,7 @@
     
     <packaging>pom</packaging>
     
-    <name>Rubber Duck - Forklift</name>
+    <name>Forklift - Parent</name>
     
     <parent>
         <groupId>rubber.duck</groupId>
