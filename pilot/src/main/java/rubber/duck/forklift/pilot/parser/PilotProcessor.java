@@ -1,20 +1,13 @@
 package rubber.duck.forklift.pilot.parser;
 
-import com.google.gson.Gson;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
+import java.io.IOException;
+import java.util.Set;
+import rubber.duck.forklift.pilot.server.worker.PilotWorker;
 
 /**
  *
  * @author Peter C
  */
-public class PilotProcessor extends AbstractProcessor {
-    
-    private static final Logger log = LoggerFactory.getLogger(PilotProcessor.class);
-
-    public PilotProcessor(Gson gson) {
-        super(gson);
-    }
-    
-    
+public interface PilotProcessor {
+    Set<PilotWorker> process() throws IOException;
 }

@@ -8,8 +8,8 @@ import com.google.gson.JsonElement;
 import com.google.gson.JsonObject;
 import com.google.gson.JsonParseException;
 import java.lang.reflect.Type;
-import rubber.duck.forklift.pilot.http.meta.ArgumentMeta;
-import rubber.duck.forklift.pilot.http.meta.ArgumentType;
+import rubber.duck.forklift.pilot.server.meta.ArgumentMeta;
+import rubber.duck.forklift.pilot.server.meta.ArgumentType;
 
 /**
  * 

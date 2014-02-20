@@ -1,7 +1,7 @@
 package rubber.duck.forklift.pilot.format;
 
 import com.google.gson.Gson;
-import rubber.duck.forklift.pilot.http.ServerResponse;
+import rubber.duck.forklift.pilot.server.ServerResponse;
 
 /**
  *

@@ -9,6 +9,10 @@ import java.lang.annotation.Target;
  *
  * @author Peter C
  */
-@Target(ElementType.TYPE)
+@Target(ElementType.METHOD)
 @Retention(RetentionPolicy.RUNTIME)
-public @interface Pilot {}
+public @interface PilotUrl {
+    String url();
+    String container() default "";
+    String description() default "";
+}

@@ -1,4 +1,4 @@
-package rubber.duck.forklift.pilot.http.meta;
+package rubber.duck.forklift.pilot.server.meta;
 
 /**
  *

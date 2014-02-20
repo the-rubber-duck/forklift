@@ -1,6 +1,6 @@
 package rubber.duck.forklift.pilot.format;
 
-import rubber.duck.forklift.pilot.http.ServerResponse;
+import rubber.duck.forklift.pilot.server.ServerResponse;
 
 /**
  *

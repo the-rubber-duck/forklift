@@ -19,9 +19,17 @@
     <modules>
         <module>id-card</module>
         <module>pilot</module>
+        <module>hourglass</module>
     </modules>
     
     <dependencies>
+        
+        <!-- Jetty -->
+        <dependency>
+            <groupId>org.eclipse.jetty</groupId>
+            <artifactId>jetty-servlet</artifactId>
+            <version>9.0.7.v20131107</version>
+        </dependency>
         
         <!-- Logging -->
         <dependency>
@@ -38,6 +46,7 @@
             <groupId>org.mockito</groupId>
             <artifactId>mockito-all</artifactId>
         </dependency>
+        
     </dependencies>
     
 </project>
